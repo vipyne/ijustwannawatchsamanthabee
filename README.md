@@ -9,7 +9,7 @@ Lots of TODOs.  Brittle in places. a little clunky.  TBS doesn't serve
 it's content over HTTPS.
 
 ### the extension
-`I just wanna watch Samantha Bee` can be found on the Chrome extension store [here](wwwblahblahblah).
+`I just wanna watch Samantha Bee` can be found on the Chrome extension store [here](https://chrome.google.com/webstore/detail/i-just-wanna-watch-samant/fkdmbolijckchbnddmnjccllfibpifgo?hl=en&gl=US).
 
 Click on the icon to open a new browser tab that plays the latest full episode of `Full
 Frontal with Samantha Bee`.
