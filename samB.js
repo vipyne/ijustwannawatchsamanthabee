@@ -1,5 +1,6 @@
 window.onload = function() {
   var video = document.createElement('video');
+  video.id = 'wanna-watch'
 
   document.body.appendChild(video);
   video.style.position = 'absolute';
@@ -19,7 +20,17 @@ window.onload = function() {
   video.autoplay = true;
   var nextVidIndex = 1;
 
-  video.addEventListener("ended", function() {
+  window.addEventListener('keypress', function(e) {
+    var video = document.getElementById('wanna-watch');
+    if (e.which == 32) {
+      if (video.paused == true)
+        video.play();
+      else
+        video.pause();
+    }
+  })
+
+  video.addEventListener('ended', function() {
     video.src = urls[nextVidIndex];
     video.autoPlay = true;
     nextVidIndex++;
